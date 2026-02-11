@@ -1,0 +1,2163 @@
+[
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 1.0,
+                "shift": [
+                    0.52,
+                    -5.0
+                ]
+            },
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 3.3043500423238554
+                },
+                "weight": 1.26,
+                "shift": [
+                    -7.1,
+                    8.07
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 1.16,
+                "shift": [
+                    -9.5,
+                    0.52
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        0.5827556790272064,
+                        -0.8523797742610426
+                    ]
+                },
+                "weight": 1.14,
+                "shift": [
+                    -2.03,
+                    -9.98
+                ]
+            },
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        -0.8840159550973432,
+                        -0.043155187044751964
+                    ]
+                },
+                "weight": 0.57,
+                "shift": [
+                    8.44,
+                    5.25
+                ]
+            },
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.77,
+                "shift": [
+                    -5.83,
+                    0.86
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -163.91694235221348
+                },
+                "weight": 0.47,
+                "shift": [
+                    3.42,
+                    -8.34
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.84,
+                "shift": [
+                    -0.33,
+                    9.81
+                ]
+            },
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -9.694248515660775
+                },
+                "weight": 1.01,
+                "shift": [
+                    -8.08,
+                    8.43
+                ]
+            },
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 0.5761728015140926
+                },
+                "weight": 1.26,
+                "shift": [
+                    -0.71,
+                    0.94
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.74,
+                "shift": [
+                    -0.51,
+                    -9.8
+                ]
+            },
+            {
+                "class": "DomainLineDirector",
+                "params": {
+                    "normalize": true,
+                    "height": 20.0,
+                    "number_of_lines": 7,
+                    "seed": 3647
+                },
+                "weight": 0.55,
+                "shift": [
+                    9.49,
+                    1.03
+                ]
+            },
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": 1.0,
+                    "phi0": 0.712051407599029
+                },
+                "weight": 0.77,
+                "shift": [
+                    5.46,
+                    -4.53
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        0.8708298560131273,
+                        -0.20209139780899243
+                    ]
+                },
+                "weight": 1.45,
+                "shift": [
+                    -9.59,
+                    6.23
+                ]
+            },
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -137.24556862355297
+                },
+                "weight": 1.31,
+                "shift": [
+                    -2.19,
+                    8.82
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.12291574681933048,
+                        0.9814921297294832
+                    ],
+                    "amplitude": 1.6362329071300923
+                },
+                "weight": 0.47,
+                "shift": [
+                    -0.82,
+                    1.59
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        1.8015561142712422,
+                        1.8303408567365018
+                    ],
+                    "amplitude": 0.3159798997917913
+                },
+                "weight": 0.56,
+                "shift": [
+                    6.24,
+                    8.66
+                ]
+            },
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        13.438098064119439,
+                        14.350786822665553
+                    ],
+                    "seed": 2517
+                },
+                "weight": 1.2,
+                "shift": [
+                    7.1,
+                    8.38
+                ]
+            },
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": 87.06744760062168
+                },
+                "weight": 0.39,
+                "shift": [
+                    2.53,
+                    -9.98
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 1.36,
+                "shift": [
+                    -2.41,
+                    -1.92
+                ]
+            },
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 5.8137574454205785
+                },
+                "weight": 1.11,
+                "shift": [
+                    9.61,
+                    -8.64
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DomainLineDirector",
+                "params": {
+                    "normalize": true,
+                    "height": 20.0,
+                    "number_of_lines": 4,
+                    "seed": 5869
+                },
+                "weight": 0.9,
+                "shift": [
+                    3.11,
+                    3.02
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        9.567421311834433,
+                        7.740760564556755
+                    ],
+                    "seed": 7620
+                },
+                "weight": 0.39,
+                "shift": [
+                    -8.17,
+                    -8.66
+                ]
+            },
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 7,
+                    "amplitude": 1.6819894197955834
+                },
+                "weight": 0.63,
+                "shift": [
+                    -4.08,
+                    1.96
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -26.103920249593074
+                },
+                "weight": 0.44,
+                "shift": [
+                    8.54,
+                    8.57
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "DomainLineDirector",
+                "params": {
+                    "normalize": true,
+                    "height": 20.0,
+                    "number_of_lines": 4,
+                    "seed": 9337
+                },
+                "weight": 1.09,
+                "shift": [
+                    -2.07,
+                    -8.02
+                ]
+            },
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        -0.8192051249553138,
+                        -0.9710945648935354
+                    ]
+                },
+                "weight": 1.28,
+                "shift": [
+                    3.34,
+                    5.91
+                ]
+            },
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        10.940926374933477,
+                        13.861929658769572
+                    ],
+                    "seed": 4608
+                },
+                "weight": 0.65,
+                "shift": [
+                    -3.61,
+                    -4.26
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        1.1366104377324153,
+                        0.777432309944239
+                    ],
+                    "amplitude": 0.004758229574242767
+                },
+                "weight": 1.19,
+                "shift": [
+                    2.03,
+                    2.14
+                ]
+            },
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -24.756472520615716
+                },
+                "weight": 0.6,
+                "shift": [
+                    -1.05,
+                    3.97
+                ]
+            },
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 9,
+                    "amplitude": 1.649483164198728
+                },
+                "weight": 0.56,
+                "shift": [
+                    -5.22,
+                    -9.21
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 3.668791717351685
+                },
+                "weight": 1.09,
+                "shift": [
+                    9.84,
+                    -2.01
+                ]
+            },
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -0.5,
+                    "phi0": 0.27671328907796555
+                },
+                "weight": 0.55,
+                "shift": [
+                    4.62,
+                    -3.87
+                ]
+            },
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 4.374153014866761
+                },
+                "weight": 0.77,
+                "shift": [
+                    2.03,
+                    0.86
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 6,
+                    "amplitude": 0.17854809116693193
+                },
+                "weight": 0.81,
+                "shift": [
+                    7.51,
+                    -2.39
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.3849461789120351,
+                        1.6990486858693035
+                    ],
+                    "amplitude": 1.406203486470365
+                },
+                "weight": 1.35,
+                "shift": [
+                    -4.84,
+                    -6.67
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.9565538571708883,
+                        1.4043389428937645
+                    ],
+                    "amplitude": 0.48528737885486484
+                },
+                "weight": 1.44,
+                "shift": [
+                    -7.12,
+                    5.11
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.35,
+                "shift": [
+                    -7.69,
+                    -4.52
+                ]
+            },
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        6.620161110763233,
+                        10.133894075039017
+                    ],
+                    "seed": 8303
+                },
+                "weight": 1.01,
+                "shift": [
+                    8.06,
+                    4.76
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DomainLineDirector",
+                "params": {
+                    "normalize": true,
+                    "height": 20.0,
+                    "number_of_lines": 7,
+                    "seed": 6108
+                },
+                "weight": 0.21,
+                "shift": [
+                    9.75,
+                    1.65
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -3.0,
+                    "phi0": 1.6266731515622628
+                },
+                "weight": 0.74,
+                "shift": [
+                    -1.44,
+                    -4.58
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 5.027657638673983
+                },
+                "weight": 0.6,
+                "shift": [
+                    4.09,
+                    6.36
+                ]
+            },
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        -0.7172962801523382,
+                        -0.7470081698701152
+                    ]
+                },
+                "weight": 0.27,
+                "shift": [
+                    3.65,
+                    8.12
+                ]
+            },
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        0.5867870407882225,
+                        0.04224188692847464
+                    ]
+                },
+                "weight": 0.96,
+                "shift": [
+                    -8.28,
+                    -1.24
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.77,
+                "shift": [
+                    -3.72,
+                    -8.22
+                ]
+            },
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 2.7211681448145835
+                },
+                "weight": 0.65,
+                "shift": [
+                    -2.06,
+                    5.38
+                ]
+            },
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 6.205151511400332
+                },
+                "weight": 0.42,
+                "shift": [
+                    9.56,
+                    -8.58
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -2.0,
+                    "phi0": 1.82010643212773
+                },
+                "weight": 0.34,
+                "shift": [
+                    -2.45,
+                    7.2
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -1.0,
+                    "phi0": 0.17183502238528206
+                },
+                "weight": 0.4,
+                "shift": [
+                    0.8,
+                    -3.27
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        1.9133930684776743,
+                        1.0484995949235174
+                    ],
+                    "amplitude": 0.6716217189115348
+                },
+                "weight": 0.47,
+                "shift": [
+                    3.34,
+                    7.25
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -151.33866759270373
+                },
+                "weight": 0.31,
+                "shift": [
+                    -8.91,
+                    8.16
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": 44.81141106775172
+                },
+                "weight": 0.37,
+                "shift": [
+                    -6.24,
+                    -5.52
+                ]
+            },
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -2.0,
+                    "phi0": 0.7689327807693317
+                },
+                "weight": 0.81,
+                "shift": [
+                    -2.57,
+                    9.86
+                ]
+            },
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        0.4349588678207639,
+                        0.5449733873269806
+                    ]
+                },
+                "weight": 0.58,
+                "shift": [
+                    -5.12,
+                    2.16
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 4.911284186225158
+                },
+                "weight": 1.46,
+                "shift": [
+                    -3.14,
+                    -7.83
+                ]
+            },
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": 67.99652325746746
+                },
+                "weight": 1.39,
+                "shift": [
+                    9.21,
+                    -1.19
+                ]
+            },
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -118.99663599102902
+                },
+                "weight": 0.27,
+                "shift": [
+                    -9.6,
+                    -6.98
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 8,
+                    "amplitude": 0.8570404024031675
+                },
+                "weight": 0.36,
+                "shift": [
+                    6.9,
+                    -2.97
+                ]
+            },
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 8,
+                    "amplitude": 0.9259899069018409
+                },
+                "weight": 1.28,
+                "shift": [
+                    -5.84,
+                    -2.34
+                ]
+            },
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -1.0,
+                    "phi0": 2.8260631870426307
+                },
+                "weight": 0.69,
+                "shift": [
+                    6.17,
+                    -8.22
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "DomainLineDirector",
+                "params": {
+                    "normalize": true,
+                    "height": 20.0,
+                    "number_of_lines": 2,
+                    "seed": 5931
+                },
+                "weight": 0.64,
+                "shift": [
+                    -4.32,
+                    -9.88
+                ]
+            },
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 5.353813179006754
+                },
+                "weight": 0.95,
+                "shift": [
+                    -6.75,
+                    -8.45
+                ]
+            },
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -0.5,
+                    "phi0": 2.206492908321636
+                },
+                "weight": 1.08,
+                "shift": [
+                    -9.74,
+                    -5.19
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": 1.0,
+                    "phi0": 1.9113108563022765
+                },
+                "weight": 0.42,
+                "shift": [
+                    -9.19,
+                    7.67
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        14.878011765197433,
+                        9.499988095729936
+                    ],
+                    "seed": 8874
+                },
+                "weight": 0.31,
+                "shift": [
+                    0.96,
+                    0.06
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 5.395218176724552
+                },
+                "weight": 1.19,
+                "shift": [
+                    -0.67,
+                    -8.52
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.27664993961618217,
+                        1.645189515536527
+                    ],
+                    "amplitude": 0.9829446595368254
+                },
+                "weight": 1.36,
+                "shift": [
+                    -0.7,
+                    3.26
+                ]
+            },
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 4.541325404141459
+                },
+                "weight": 0.21,
+                "shift": [
+                    9.24,
+                    -5.07
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        -0.39010260538614205,
+                        0.32031751234925654
+                    ]
+                },
+                "weight": 1.3,
+                "shift": [
+                    8.33,
+                    7.09
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        1.1193264488239867,
+                        1.2102440271352002
+                    ],
+                    "amplitude": 0.26628248864162685
+                },
+                "weight": 0.69,
+                "shift": [
+                    -3.24,
+                    6.09
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        0.19308261018232398,
+                        -0.8741246788644594
+                    ]
+                },
+                "weight": 0.27,
+                "shift": [
+                    7.35,
+                    9.57
+                ]
+            },
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.34,
+                "shift": [
+                    -5.23,
+                    -9.78
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DomainLineDirector",
+                "params": {
+                    "normalize": true,
+                    "height": 20.0,
+                    "number_of_lines": 2,
+                    "seed": 3644
+                },
+                "weight": 1.45,
+                "shift": [
+                    -7.99,
+                    9.34
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 6,
+                    "amplitude": 1.2387904231133744
+                },
+                "weight": 0.29,
+                "shift": [
+                    1.19,
+                    -9.07
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -106.48948954238502
+                },
+                "weight": 1.45,
+                "shift": [
+                    3.91,
+                    -8.04
+                ]
+            },
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        7.6239411151904735,
+                        7.08697035078438
+                    ],
+                    "seed": 8340
+                },
+                "weight": 0.45,
+                "shift": [
+                    1.82,
+                    -0.3
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 3.160784323251937
+                },
+                "weight": 0.8,
+                "shift": [
+                    -2.29,
+                    9.9
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -0.5,
+                    "phi0": 2.520941524912235
+                },
+                "weight": 0.58,
+                "shift": [
+                    3.42,
+                    4.33
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        7.746764669714396,
+                        9.808671228408882
+                    ],
+                    "seed": 1444
+                },
+                "weight": 0.22,
+                "shift": [
+                    0.17,
+                    7.91
+                ]
+            },
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": -18.09891897510846
+                },
+                "weight": 0.34,
+                "shift": [
+                    -1.0,
+                    9.36
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 1,
+                    "amplitude": 1.0858772958692995
+                },
+                "weight": 1.31,
+                "shift": [
+                    2.23,
+                    6.1
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        12.270489982631766,
+                        10.665082778092122
+                    ],
+                    "seed": 3622
+                },
+                "weight": 1.48,
+                "shift": [
+                    -2.76,
+                    -9.07
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        1.170406811517311,
+                        1.7736096852661156
+                    ],
+                    "amplitude": 0.24889712483908388
+                },
+                "weight": 0.53,
+                "shift": [
+                    9.57,
+                    7.68
+                ]
+            },
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 6,
+                    "amplitude": 0.792290742245906
+                },
+                "weight": 0.78,
+                "shift": [
+                    4.08,
+                    -3.39
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 1.3239131329204858
+                },
+                "weight": 0.57,
+                "shift": [
+                    -1.22,
+                    8.12
+                ]
+            },
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.73,
+                "shift": [
+                    6.31,
+                    8.47
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.39,
+                "shift": [
+                    6.24,
+                    -4.3
+                ]
+            },
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        0.25616310925251784,
+                        0.1313099155399755
+                    ]
+                },
+                "weight": 0.75,
+                "shift": [
+                    5.89,
+                    -2.23
+                ]
+            },
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        0.37805429421202663,
+                        -0.4600586540712772
+                    ]
+                },
+                "weight": 0.8,
+                "shift": [
+                    2.42,
+                    9.51
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        -0.07004301183355399,
+                        0.1514722804672879
+                    ]
+                },
+                "weight": 1.45,
+                "shift": [
+                    3.49,
+                    -9.96
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        -0.5407082492630229,
+                        -0.874118131135696
+                    ]
+                },
+                "weight": 0.61,
+                "shift": [
+                    -1.69,
+                    -1.65
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 1.0586892332301416
+                },
+                "weight": 0.41,
+                "shift": [
+                    -3.98,
+                    7.7
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.18765631885230832,
+                        0.7101389957186034
+                    ],
+                    "amplitude": 0.6324637769532151
+                },
+                "weight": 0.47,
+                "shift": [
+                    0.17,
+                    -5.43
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.71,
+                "shift": [
+                    -1.05,
+                    -7.9
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.8195103952246727,
+                        1.302133037944907
+                    ],
+                    "amplitude": 1.861171843768793
+                },
+                "weight": 0.28,
+                "shift": [
+                    -4.37,
+                    9.41
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.821464600486462,
+                        1.5224022600185014
+                    ],
+                    "amplitude": 0.41690268789311635
+                },
+                "weight": 1.49,
+                "shift": [
+                    7.04,
+                    -4.55
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -1.0,
+                    "phi0": 0.02162116515516148
+                },
+                "weight": 1.22,
+                "shift": [
+                    2.7,
+                    9.42
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 10,
+                    "amplitude": 1.1093114957662698
+                },
+                "weight": 1.33,
+                "shift": [
+                    1.28,
+                    -2.28
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 1.3,
+                "shift": [
+                    -5.75,
+                    3.77
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "UniformDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": 6.007145513012478
+                },
+                "weight": 0.52,
+                "shift": [
+                    5.6,
+                    -6.01
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.13808008596106314,
+                        1.5423187634120763
+                    ],
+                    "amplitude": 0.9800086311161373
+                },
+                "weight": 1.47,
+                "shift": [
+                    -6.3,
+                    0.39
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -2.0,
+                    "phi0": 1.387379336506511
+                },
+                "weight": 0.88,
+                "shift": [
+                    -7.58,
+                    -8.5
+                ]
+            },
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.36,
+                "shift": [
+                    -5.43,
+                    -2.78
+                ]
+            },
+            {
+                "class": "DomainLineDirector",
+                "params": {
+                    "normalize": true,
+                    "height": 20.0,
+                    "number_of_lines": 3,
+                    "seed": 1839
+                },
+                "weight": 0.42,
+                "shift": [
+                    2.55,
+                    -8.19
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -3.0,
+                    "phi0": 1.7927811877766913
+                },
+                "weight": 1.33,
+                "shift": [
+                    8.36,
+                    -1.89
+                ]
+            },
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 1.01,
+                "shift": [
+                    6.35,
+                    7.8
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        11.264209067834246,
+                        9.87721169778483
+                    ],
+                    "seed": 8191
+                },
+                "weight": 0.28,
+                "shift": [
+                    8.62,
+                    -5.88
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        1.9555143969943982,
+                        0.9330554940947143
+                    ],
+                    "amplitude": 0.46404694534945357
+                },
+                "weight": 1.32,
+                "shift": [
+                    -9.78,
+                    -0.25
+                ]
+            },
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 1.03,
+                "shift": [
+                    -2.4,
+                    -1.4
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.59,
+                "shift": [
+                    3.77,
+                    4.86
+                ]
+            },
+            {
+                "class": "SinusoidalDirector",
+                "params": {
+                    "normalize": true,
+                    "q": [
+                        0.983689359138268,
+                        0.7642544759026155
+                    ],
+                    "amplitude": 0.7587462942794105
+                },
+                "weight": 0.41,
+                "shift": [
+                    -8.23,
+                    -6.5
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": 2.0,
+                    "phi0": 1.6122281206190134
+                },
+                "weight": 1.1,
+                "shift": [
+                    2.38,
+                    0.71
+                ]
+            },
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": -0.5,
+                    "phi0": 0.4426841500160061
+                },
+                "weight": 0.72,
+                "shift": [
+                    3.12,
+                    3.59
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DefectDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "k": 0.5,
+                    "phi0": 2.5408847094978233
+                },
+                "weight": 0.97,
+                "shift": [
+                    -4.34,
+                    7.53
+                ]
+            },
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": 167.89812566081451
+                },
+                "weight": 0.4,
+                "shift": [
+                    7.11,
+                    7.22
+                ]
+            },
+            {
+                "class": "LineDirector",
+                "params": {
+                    "normalize": true,
+                    "direction": [
+                        0.6552063040653615,
+                        0.6868195753300605
+                    ]
+                },
+                "weight": 1.42,
+                "shift": [
+                    -7.64,
+                    5.84
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "ParabolarDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ],
+                    "angle": 137.76711799917223
+                },
+                "weight": 0.37,
+                "shift": [
+                    9.3,
+                    -4.42
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Interpolation",
+        "height_factor": 1.0,
+        "top": [
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        12.883828874408715,
+                        6.83120334940668
+                    ],
+                    "seed": 3417
+                },
+                "weight": 1.2,
+                "shift": [
+                    1.06,
+                    2.21
+                ]
+            },
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 10,
+                    "amplitude": 0.7596645140906997
+                },
+                "weight": 1.4,
+                "shift": [
+                    2.66,
+                    -4.92
+                ]
+            },
+            {
+                "class": "RandomDirector",
+                "params": {
+                    "normalize": true,
+                    "n_modes": 9,
+                    "amplitude": 0.7961955468725472
+                },
+                "weight": 1.3,
+                "shift": [
+                    -5.45,
+                    9.27
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "class": "DomainLineDirector",
+                "params": {
+                    "normalize": true,
+                    "height": 20.0,
+                    "number_of_lines": 3,
+                    "seed": 3167
+                },
+                "weight": 0.77,
+                "shift": [
+                    -3.64,
+                    -1.4
+                ]
+            },
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.6,
+                "shift": [
+                    5.4,
+                    8.41
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "DomainDirector",
+                "params": {
+                    "normalize": true,
+                    "cell_size": [
+                        7.8764317451889285,
+                        5.907109790067726
+                    ],
+                    "seed": 8162
+                },
+                "weight": 0.33,
+                "shift": [
+                    -9.84,
+                    -2.93
+                ]
+            },
+            {
+                "class": "CircularDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.49,
+                "shift": [
+                    -3.53,
+                    5.64
+                ]
+            }
+        ]
+    },
+    {
+        "type": "2D",
+        "components": [
+            {
+                "class": "RadialDirector",
+                "params": {
+                    "normalize": true,
+                    "center": [
+                        0,
+                        0
+                    ]
+                },
+                "weight": 0.27,
+                "shift": [
+                    -5.91,
+                    -8.16
+                ]
+            }
+        ]
+    }
+]
