@@ -1,0 +1,108 @@
+================================================================================
+          HOW TO RUN THE CNN TRAINING CODE - SIMPLE VERSION
+================================================================================
+
+This guide tells you only:
+- How to start training
+- Which values you can change
+- Quick tips to get better results (especially if you have a good GPU)
+
+1. Make sure you have the environment ready
+───────────────────────────────────────────────
+conda activate cnn-env          # or whatever name you used
+# (should have torch + torchvision + timm + opencv-python + tqdm installed)
+
+2. Put your images in these folders
+───────────────────────────────────────────────
+data/
+├── train/           ← all training images here
+│   ├── class1/
+│   ├── class2/
+│   └── ...
+└── val/             ← validation images here (same subfolder names)
+    ├── class1/
+    ├── class2/
+    └── ...
+
+3. Run the training
+───────────────────────────────────────────────
+Just run this command in the terminal:
+
+python train.py
+
+It will:
+- load images from data/train and data/val
+- train a ResNet-50 (pretrained)
+- save the best model to checkpoints/best_model.pth
+
+Training will show progress every epoch (loss + accuracy).
+
+4. Most useful values you can change (edit train.py)
+───────────────────────────────────────────────────────────────
+
+Variable              What it does                               Good values
+─────────────────────────────────────────────────────────────────────────────────
+batch_size            Bigger = faster but needs more VRAM        16, 32, 48, 64, 96
+                                                              (32–64 most common)
+
+epochs                How many passes over the data              20–60 (30 is good start)
+
+lr (learning rate)    How big each update step is                0.001, 0.0003, 0.0001
+                                                              (0.001 with AdamW is fine)
+
+model choice          Which network to use                       resnet50
+                                                              convnext_small (better)
+                                                              efficientnet_b0 / b4
+
+max_NA_objective →    (ignore — not used here)
+
+You can change these lines near the top:
+
+batch_size = 32          # ← try 64 or 96 if you have good GPU
+epochs = 30              # ← 50 if you want to train longer
+lr = 0.001               # ← try 0.0003 if training is unstable
+
+# Model options (uncomment the one you want):
+model = models.resnet50(weights="IMAGENET1K_V2")
+# model = timm.create_model("convnext_small", pretrained=True, num_classes=num_classes)
+
+5. Quick optimization tips (if you have a better machine)
+───────────────────────────────────────────────────────────────
+
+GPU is good (12GB+ VRAM)          → Use bigger batch_size (64–128)
+Very good GPU (24GB+)             → batch_size=96–192 + convnext_small or efficientnet_b4
+
+Want faster & better results?     → Change model to:
+                                      convnext_small
+                                      efficientnet_b4
+                                      convnext_base
+
+Want to train longer?             → epochs = 50 or 80
+                                    (but watch if validation accuracy stops improving)
+
+Training is unstable / accuracy   → Try smaller learning rate: lr = 0.0003 or 0.0001
+goes up and down a lot
+
+Images are very different sizes   → Keep Resize((224,224)) or try (300,300) for
+                                      better models like convnext / efficientnet
+
+6. How to know it’s working well
+─────────────────────────────────
+
+Look at the printed lines:
+
+Epoch 10 | Train Loss: 0.42  Acc: 88.5% | Val Loss: 0.51  Acc: 84.2%
+
+Good signs:
+- Train and Val accuracy both go up
+- Val accuracy keeps improving (even slowly) after 15–20 epochs
+- Train loss goes clearly below 0.5–0.8
+
+Bad signs:
+- Val accuracy stops increasing after ~10 epochs
+- Val loss starts going up while train loss goes down → overfitting
+
+That’s it!
+
+Just edit the few numbers at the top, run python train.py, and wait.
+Have fun training!
